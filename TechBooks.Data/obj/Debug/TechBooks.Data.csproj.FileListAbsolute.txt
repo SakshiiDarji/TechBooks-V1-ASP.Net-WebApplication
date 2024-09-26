@@ -1,0 +1,9 @@
+C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Data\bin\Debug\TechBooks.Data.dll
+C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Data\bin\Debug\TechBooks.Data.pdb
+C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Data\bin\Debug\TechBooks.Models.dll
+C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Data\bin\Debug\TechBooks.Models.pdb
+C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Data\obj\Debug\TechBooks.Data.csproj.AssemblyReference.cache
+C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Data\obj\Debug\TechBooks.Data.csproj.CoreCompileInputs.cache
+C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Data\obj\Debug\TechBook.39799088.Up2Date
+C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Data\obj\Debug\TechBooks.Data.dll
+C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Data\obj\Debug\TechBooks.Data.pdb

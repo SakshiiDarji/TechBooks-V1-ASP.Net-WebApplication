@@ -1,0 +1,99 @@
+﻿            <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TechBooks.WebUI.Site" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <!-- Make page responsive (check navbar menu in mobile screen mode) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - TechBooks 1</title>
+
+
+    <!-- Bootstrap external references -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="/content/css/site.css" rel="stylesheet" />
+    <script src="/content/js/site.js"></script>
+</head>
+<body>
+
+    <!-- HTML 5 Semantic Elements <header> <nav> <main> etc: https://www.w3schools.com/html/html5_semantic_elements.asp -->
+
+    <form id="form1" runat="server">
+        <header>
+
+            <!-- Bootstrap navbar: https://getbootstrap.com/docs/5.3/components/navbar/ -->
+
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom">
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="/">TechBooks 1</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse justify-content-between">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/ManageAuthors">Authors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/ManageBooks">Books</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/ManageCategories">Categories</a>
+                            </li>
+                        </ul>
+
+                        <asp:Panel ID="pnlSignedIn" runat="server">
+                            <ul class="navbar-nav">
+
+                                <li class="nav-item">
+                                    <asp:LinkButton ID="lkbSignOut" OnClick="lkbSignOut_Click" CssClass="nav-link" CausesValidation="false" runat="server">Sign out</asp:LinkButton>
+                                </li>
+                            </ul>
+                        </asp:Panel>
+                        <asp:Panel ID="pnlSignedOut" runat="server">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Login/Register.aspx">Register</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Login/SignIn.aspx">Sign in</a>
+                                </li>
+                            </ul>
+                        </asp:Panel>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <asp:Label ID="lblTitle" runat="server" Font-Size="20" Font-Bold="true"></asp:Label>
+            <br />
+            <br />
+            <main>
+                <asp:Panel ID="pnlDangerMessage" CssClass="alert alert-danger alert-dismissable d-flex justify-content-between" Visible="false" runat="server">
+                    <asp:Label ID="lblErrorMessage" runat="server"></asp:Label>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" />
+                </asp:Panel>
+
+                <asp:Panel ID="pnlSuccessMessage" CssClass="alert alert-success alert-dismissable d-flex justify-content-between" Visible="false" runat="server">
+                    <asp:Label ID="lblSuccessMessage" runat="server"></asp:Label>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" />
+                </asp:Panel>
+
+                <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </main>
+        </div>
+    </form>
+</body>
+</html>
+
+        
