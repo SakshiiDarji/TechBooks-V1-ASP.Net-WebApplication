@@ -1,6 +1,0 @@
-C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Models\bin\Debug\TechBooks.Models.dll
-C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Models\bin\Debug\TechBooks.Models.pdb
-C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Models\obj\Debug\TechBooks.Models.csproj.AssemblyReference.cache
-C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Models\obj\Debug\TechBooks.Models.csproj.CoreCompileInputs.cache
-C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Models\obj\Debug\TechBooks.Models.dll
-C:\Users\14387\source\repos\2024\Fall2024\Chapter 1\TechBooksV1\TechBooks.Models\obj\Debug\TechBooks.Models.pdb
