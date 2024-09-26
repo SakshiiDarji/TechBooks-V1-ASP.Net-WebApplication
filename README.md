@@ -1,4 +1,4 @@
-# This is version 1 of HighTech Books Project, using ASP. Net Web Application
+# This is version 1 of TechBooks Project, using ASP. Net Web Application
 ### Technology Used: ASP.Net Web Application, SQL Server, BootStrap
 
 # About the Project Website
